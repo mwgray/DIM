@@ -131,3 +131,14 @@
         });
     });
 })();
+
+
+chrome.webRequest.onBeforeSendHeaders.addListener(details => {
+  let headers = details.requestHeaders.filter(h => {
+    return !(h.name === "Origin" && h.value.startsWith("chrome-extension://"));
+  });
+  return { requestHeaders: headers };
+},
+  { urls: ["*://*.bungie.net/Platform/*"] },
+  ["blocking", "requestHeaders"]
+);

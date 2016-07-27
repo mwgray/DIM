@@ -15,8 +15,10 @@
     ]
   },
   "permissions": [
+    "webRequest",
+    "webRequestBlocking",
     "storage",
-    "*://*.bungie.net/*",
+    "*://www.bungie.net/*",
     "cookies",
     "identity"
   ],
