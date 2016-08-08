@@ -74,10 +74,6 @@
         vm.loadout = angular.copy(vm.defaults);
       });
 
-      scope.$watchCollection('vm.originalLoadout.items', function() {
-        vm.loadout = angular.copy(vm.originalLoadout);
-      });
-
       scope.$on('dim-edit-loadout', function(event, args) {
         if (args.loadout) {
           vm.show = true;
