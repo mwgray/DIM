@@ -1283,17 +1283,19 @@
               var items = [];
               _.each(vendor.saleItemCategories, function(categoryData) {
                 var filteredSaleItems = _.filter(categoryData.saleItems, function(saleItem) {
-                  return saleItem.item.isEquipment && saleItem.costs.length;
+                  return true; // saleItem.item.isEquipment; // && saleItem.costs.length;
                 });
                 items.push(...filteredSaleItems);
               });
               vendor.items = _.pluck(items, 'item');
 
               var costs = _.reduce(items, function(o, saleItem) {
-                o[saleItem.item.itemHash] = {
-                  cost: saleItem.costs[0].value,
-                  currency: _.pick(itemDefs[saleItem.costs[0].itemHash], 'itemName', 'icon', 'itemHash')
-                };
+                if(saleItem.costs.length > 0) {
+                  o[saleItem.item.itemHash] = {
+                    cost: saleItem.costs[0].value,
+                    currency: _.pick(itemDefs[saleItem.costs[0].itemHash], 'itemName', 'icon', 'itemHash')
+                  };
+                }
                 return o;
               }, {});
               vendor.costs = costs;
@@ -1309,6 +1311,18 @@
                 });
                 vendor.items.weapons = _.filter(items, function(item) {
                   return item.primStat && item.primStat.statHash === 368428387 && item.primStat.value >= 280;
+                });
+                vendor.items.shaders = _.filter(items, function(item) {
+                  return item.type == "Shader";
+                });
+                vendor.items.emblems = _.filter(items, function(item) {
+                  return item.type == "Emblem";
+                });
+                vendor.items.vehicles = _.filter(items, function(item) {
+                  return item.type == "Vehicle";
+                });
+                vendor.items.ships = _.filter(items, function(item) {
+                  return item.type == "Ship";
                 });
                 return vendor;
               });

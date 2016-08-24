@@ -38,6 +38,8 @@
     // Van quart, Dead orb, Future war, New mon, Cruc hand, Cruc quart, Eris Morn, Speaker, Variks, Exotic Blue
     vm.vendorHashes = ['2668878854', '3611686524', '1821699360', '1808244981', '3746647075', '3658200622', '174528503', '2680694281', '1998812735', '3902439767'];
 
+    vm.vendorHashes = vm.vendorHashes.concat(['242140165', '134701236', '459708109', '3301500998', '1460182514']);
+
     function mergeMaps(o, map) {
       _.each(map, function(val, key) {
         if (!o[key]) {
