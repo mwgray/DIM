@@ -131,6 +131,10 @@
         .state('vendors', {
           url: "/vendors",
           templateUrl: "views/vendors.html"
+        })
+        .state('collections', {
+          url: "/collections",
+          templateUrl: "views/collections.html"
         });
     });
 })();

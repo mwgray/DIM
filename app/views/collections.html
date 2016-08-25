@@ -1,0 +1,7 @@
+<div class="collection" ng-controller="dimCollectionCtrl as vm">
+  <a ui-sref='inventory' class="link"><i class='fa fa-arrow-circle-left'></i>Back to DIM</a>
+  <h1>Collections</h1>
+  <div class="collections">
+    <dim-collection-items stores-data="vm.stores" collections-data="vm.collections" collection-hashes="vm.collectionHashes" total-coins="vm.totalCoins"></dim-collection-items>
+  </div>
+</div>

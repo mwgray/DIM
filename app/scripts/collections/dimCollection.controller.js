@@ -2,43 +2,42 @@
   'use strict';
 
   angular.module('dimApp')
-    .controller('dimVendorCtrl', dimVendorCtrl);
+    .controller('dimCollectionCtrl', dimCollectionCtrl);
 
-  dimVendorCtrl.$inject = ['$scope', '$state', '$q', 'dimStoreService', 'dimSettingsService'];
+  dimCollectionCtrl.$inject = ['$scope', '$state', '$q', 'dimStoreService', 'dimSettingsService'];
 
-  function dimVendorCtrl($scope, $state, $q, dimStoreService, dimSettingsService) {
+  function dimCollectionCtrl($scope, $state, $q, dimStoreService, dimSettingsService) {
     var vm = this;
 
     vm.settings = dimSettingsService;
+
     function init(stores) {
       vm.stores = _.reject(stores, (s) => s.isVault);
-      vm.vendors = _.omit(_.pluck(vm.stores, 'vendors'), function(value) {
-        return !value;
-      });
+      vm.collections = _.omit(_.pluck(vm.stores, 'vendors'), function(value) { return !value; });
       countCurrencies(stores);
     }
 
     init(dimStoreService.getStores());
+
     $scope.$on('dim-stores-updated', function(e, args) {
       init(args.stores);
     });
 
 
-    if (_.isEmpty(vm.vendors)) {
+    if (_.isEmpty(vm.collections)) {
       $state.go('inventory');
       return;
     }
 
-    // Banner
-    vm.bannerHash = ['242140165'];
-
-    // Titan van, Hunter van, Warlock van
-    vm.vanguardHashes = ['1990950', '3003633346', '1575820975'];
-
-    // Van quart, Dead orb, Future war, New mon, Cruc hand, Cruc quart, Eris Morn, Speaker, Variks, Exotic Blue
-    vm.vendorHashes = ['2668878854', '3611686524', '1821699360', '1808244981', '3746647075', '3658200622', '174528503', '2680694281', '1998812735', '3902439767'];
-
-    vm.vendorHashes = vm.vendorHashes.concat(['242140165', '134701236', '459708109', '3301500998', '1460182514', '614738178']);
+    vm.collectionHashes = [
+      '2420628997', // Shader Collection
+      '3301500998', // Emblem Collection
+      '614738178', // Emote Collection
+      '44395194', // Vehicles
+      '2244880194', // Ship Collection
+      '1460182514', // Exotic Weapon Blueprints
+      '3902439767', // Exotic Armor Blueprints
+    ];
 
     function mergeMaps(o, map) {
       _.each(map, function(val, key) {
@@ -50,7 +49,7 @@
     }
 
     function countCurrencies(stores) {
-      var currencies = _.chain(vm.vendors)
+      var currencies = _.chain(vm.collections)
             .values()
             .reduce(function(o, val) { o.push(_.values(val)); return o; }, [])
             .flatten()

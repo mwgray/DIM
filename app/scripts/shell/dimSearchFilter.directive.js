@@ -46,6 +46,8 @@
     untracked: ['untracked'],
     locked: ['locked'],
     unlocked: ['unlocked'],
+    acquired: ['acquired'],
+    unacquired: ['unacquired'],
     stackable: ['stackable'],
     engram: ['engram'],
     weaponClass: ['pulserifle', 'scoutrifle', 'handcannon', 'autorifle', 'primaryweaponengram', 'sniperrifle', 'shotgun', 'fusionrifle', 'specialweaponengram', 'rocketlauncher', 'machinegun', 'heavyweaponengram', 'sidearm', 'sword'],
@@ -296,6 +298,12 @@
       tracked: function(predicate, item) {
         return item.trackable &&
           item.tracked;
+      },
+      acquired: function(predicate, item) {
+        return item.isAcquired;
+      },
+      unacquired: function(predicate, item) {
+        return !item.isAcquired;
       },
       unlocked: function(predicate, item) {
         return item.lockable &&

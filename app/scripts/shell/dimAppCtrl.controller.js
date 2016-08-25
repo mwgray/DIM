@@ -111,6 +111,10 @@
       $state.go($state.is('vendors') ? 'inventory' : 'vendors');
     };
 
+    vm.toggleCollections = function (e) {
+      $state.go($state.is('collections') ? 'inventory' : 'collections');
+    };
+
     dimXurService.updateXur();
     vm.xur = dimXurService;
 
