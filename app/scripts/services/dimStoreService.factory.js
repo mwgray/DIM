@@ -1291,7 +1291,8 @@
 
               var costs = _.reduce(items, function(o, saleItem) {
 
-                saleItem.isAcquired = saleItem.itemStatus & (1 << 3);
+                // only check the locked bit
+                saleItem.isAcquired = (saleItem.itemStatus & (1 << 3)) == 0;
 
                 if(saleItem.costs.length > 0) {
                   o[saleItem.item.itemHash] = {
@@ -1312,30 +1313,17 @@
                   item.vendorIcon = vendor.vendorIcon;
                   vendor.itemMap[item.hash] = item;
                 });
+
                 vendor.items = {};
+
+                vendor.items.all = _.filter(items, function() {
+                  return true;
+                });
                 vendor.items.armor = _.filter(items, function(item) {
-                  return item.primStat && item.primStat.statHash === 3897883278;// && item.primStat.value >= 280;
+                  return item.primStat && item.primStat.statHash === 3897883278 && item.primStat.value >= 280;
                 });
                 vendor.items.weapons = _.filter(items, function(item) {
-                  return item.primStat && item.primStat.statHash === 368428387;// && item.primStat.value >= 280;
-                });
-                vendor.items.shaders = _.filter(items, function(item) {
-                  return item.type == "Shader";
-                });
-                vendor.items.emblems = _.filter(items, function(item) {
-                  return item.type == "Emblem";
-                });
-                vendor.items.emotes = _.filter(items, function(item) {
-                  if(item.type == "Emote") {
-                    return true
-                  }
-                  return item.type == "Emote";
-                });
-                vendor.items.vehicles = _.filter(items, function(item) {
-                  return item.type == "Vehicle";
-                });
-                vendor.items.ships = _.filter(items, function(item) {
-                  return item.type == "Ship";
+                  return item.primStat && item.primStat.statHash === 368428387 && item.primStat.value >= 280;
                 });
                 return vendor;
               });
