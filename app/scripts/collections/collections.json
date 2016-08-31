@@ -1,806 +1,3414 @@
 [
   {
     "name": "Shader Collection",
-    "groups": [
+    "subgroups": [
       {
         "name": "Vendor",
         "items": [
-          3671454768,
-          194424264,
-          3671454770,
-          3671454771,
-          3671454772,
-          3671454774,
-          3671454776,
-          3671454777,
-          2989526611,
-          2989526608,
-          2989526615
+          {
+            "hash": 3671454768,
+            "name": "Polar Oak"
+          },
+          {
+            "hash": 194424264,
+            "name": "Double Banshee"
+          },
+          {
+            "hash": 3671454770,
+            "name": "Jester Apogee"
+          },
+          {
+            "hash": 3671454771,
+            "name": "Aurora Blur"
+          },
+          {
+            "hash": 3671454772,
+            "name": "Provincial Royale"
+          },
+          {
+            "hash": 3671454774,
+            "name": "Undercity"
+          },
+          {
+            "hash": 3671454776,
+            "name": "Thunderdevil"
+          },
+          {
+            "hash": 3671454777,
+            "name": "Broadsword"
+          },
+          {
+            "hash": 2989526611,
+            "name": "Atlantean 5055"
+          },
+          {
+            "hash": 2989526608,
+            "name": "Blue Marble"
+          },
+          {
+            "hash": 2989526615,
+            "name": "Chrysanthemum"
+          }
         ]
       },
       {
         "name": "Factions",
         "items": [
-          3060686469,
-          3060686468,
-          3060686471,
-          3060686470,
-          861576217,
-          861576216,
-          861576219,
-          861576218,
-          4112903824,
-          4112903825,
-          4112903826,
-          4112903827
+          {
+            "hash": 3060686469,
+            "name": "Bittersteel"
+          },
+          {
+            "hash": 3060686468,
+            "name": "Revenant"
+          },
+          {
+            "hash": 3060686471,
+            "name": "The Hanged Man"
+          },
+          {
+            "hash": 3060686470,
+            "name": "The Nowhere"
+          },
+          {
+            "hash": 861576217,
+            "name": "Nineveh 8611"
+          },
+          {
+            "hash": 861576216,
+            "name": "Babylon 9191"
+          },
+          {
+            "hash": 861576219,
+            "name": "Carthage 0100"
+          },
+          {
+            "hash": 861576218,
+            "name": "Tyre 4770"
+          },
+          {
+            "hash": 4112903824,
+            "name": "Amalthea"
+          },
+          {
+            "hash": 4112903825,
+            "name": "Nefertiti AK"
+          },
+          {
+            "hash": 4112903826,
+            "name": "Themisto"
+          },
+          {
+            "hash": 4112903827,
+            "name": "Cleopatra AK"
+          }
         ]
       },
       {
         "name": "Activities",
         "items": [
-          2949605650,
-          3367786035,
-          3367786034,
-          3720866502,
-          3720866503,
-          3720866500,
-          3720866501,
-          651681368,
-          651681369,
-          651681370,
-          651681371,
-          194424266,
-          194424271,
-          3671454773,
-          3671454775,
-          2949605651,
-          4211402861,
-          4211402860,
-          4211402862,
-          202245949,
-          3056359296
+          {
+            "hash": 2949605650,
+            "name": "Arctic Proxy"
+          },
+          {
+            "hash": 3367786035,
+            "name": "Million Million"
+          },
+          {
+            "hash": 3367786034,
+            "name": "Goldspiral"
+          },
+          {
+            "hash": 3720866502,
+            "name": "Achilles"
+          },
+          {
+            "hash": 3720866503,
+            "name": "Gilgamesh"
+          },
+          {
+            "hash": 3720866500,
+            "name": "Beowulf"
+          },
+          {
+            "hash": 3720866501,
+            "name": "Cicero"
+          },
+          {
+            "hash": 651681368,
+            "name": "Bloodpact"
+          },
+          {
+            "hash": 651681369,
+            "name": "Lunar Elegy"
+          },
+          {
+            "hash": 651681370,
+            "name": "Cytherean Bloom"
+          },
+          {
+            "hash": 651681371,
+            "name": "Refraction Melt"
+          },
+          {
+            "hash": 194424266,
+            "name": "Lost City"
+          },
+          {
+            "hash": 194424271,
+            "name": "Walkabout"
+          },
+          {
+            "hash": 3671454773,
+            "name": "God of War"
+          },
+          {
+            "hash": 3671454775,
+            "name": "Frostfire"
+          },
+          {
+            "hash": 2949605651,
+            "name": "Substance 321"
+          },
+          {
+            "hash": 4211402861,
+            "name": "Cyan Stars"
+          },
+          {
+            "hash": 4211402860,
+            "name": "Burnt Marshmallow"
+          },
+          {
+            "hash": 4211402862,
+            "name": "Mostly Cloudy"
+          },
+          {
+            "hash": 202245949,
+            "name": "Chanson de Geste"
+          },
+          {
+            "hash": 3056359296,
+            "name": "Debt Unpaid"
+          }
         ]
       },
       {
         "name": "The Dark Below",
         "items": [
-          3776902104,
-          3776902105,
-          3776902106
+          {
+            "hash": 3776902104,
+            "name": "Predawne"
+          },
+          {
+            "hash": 3776902105,
+            "name": "Middaye"
+          },
+          {
+            "hash": 3776902106,
+            "name": "Sunsetting"
+          }
         ]
       },
       {
         "name": "House of Wolves",
         "items": [
-          3753095826,
-          3753095827,
-          1947545036,
-          1947545037,
-          3390448406,
-          3390448407,
-          3390448404,
-          3390448405,
-          3390448402,
-          4111350119,
-          4111350118,
-          4111350117
+          {
+            "hash": 3753095826,
+            "name": "Rosegold"
+          },
+          {
+            "hash": 3753095827,
+            "name": "Prism Dancer"
+          },
+          {
+            "hash": 1947545036,
+            "name": "Pallas Victorious"
+          },
+          {
+            "hash": 1947545037,
+            "name": "Imogen's Fire"
+          },
+          {
+            "hash": 3390448406,
+            "name": "Kingswind"
+          },
+          {
+            "hash": 3390448407,
+            "name": "Devilswept"
+          },
+          {
+            "hash": 3390448404,
+            "name": "Wolfcurse"
+          },
+          {
+            "hash": 3390448405,
+            "name": "Judgment Cast"
+          },
+          {
+            "hash": 3390448402,
+            "name": "Trial by Ordeal"
+          },
+          {
+            "hash": 4111350119,
+            "name": "Aaru's Passage"
+          },
+          {
+            "hash": 4111350118,
+            "name": "Amduat Ink"
+          },
+          {
+            "hash": 4111350117,
+            "name": "Abydos Common"
+          }
         ]
       },
       {
         "name": "The Taken King",
         "items": [
-          202245945,
-          3176299288,
-          2989526610,
-          2989526609,
-          4211402863,
-          1158121101,
-          1158121100,
-          1158121103,
-          1158121102,
-          202245944,
-          202245947,
-          202245946,
-          3056359297,
-          3056359299,
-          139252900,
-          139252901
+          {
+            "hash": 202245945,
+            "name": "Beltane"
+          },
+          {
+            "hash": 3176299288,
+            "name": "Vena Cava"
+          },
+          {
+            "hash": 2989526610,
+            "name": "Autumn Splendor"
+          },
+          {
+            "hash": 2989526609,
+            "name": "Tristesse"
+          },
+          {
+            "hash": 4211402863,
+            "name": "Iris Germanica"
+          },
+          {
+            "hash": 1158121101,
+            "name": "Lion Dancer"
+          },
+          {
+            "hash": 1158121100,
+            "name": "Vallsgärde"
+          },
+          {
+            "hash": 1158121103,
+            "name": "Surfbreaker"
+          },
+          {
+            "hash": 1158121102,
+            "name": "Antique Land"
+          },
+          {
+            "hash": 202245944,
+            "name": "Feud Unfading"
+          },
+          {
+            "hash": 202245947,
+            "name": "Chalcedony"
+          },
+          {
+            "hash": 202245946,
+            "name": "Yesternight"
+          },
+          {
+            "hash": 3056359297,
+            "name": "Mercurial Dawn"
+          },
+          {
+            "hash": 3056359299,
+            "name": "Anahata"
+          },
+          {
+            "hash": 139252900,
+            "name": "Caelestis"
+          },
+          {
+            "hash": 139252901,
+            "name": "Dawncaller"
+          }
         ]
       },
       {
         "name": "Raid",
         "items": [
-          407626698,
-          1906496743,
-          1906496742,
-          4033743765,
-          3176299289,
-          3176299291
+          {
+            "hash": 407626698,
+            "name": "Chatterwhite"
+          },
+          {
+            "hash": 1906496743,
+            "name": "Cryptographic"
+          },
+          {
+            "hash": 1906496742,
+            "name": "Glowhoo"
+          },
+          {
+            "hash": 4033743765,
+            "name": "The Queen's Web"
+          },
+          {
+            "hash": 3176299289,
+            "name": "Bone Marrow"
+          },
+          {
+            "hash": 3176299291,
+            "name": "Ascendant Plane"
+          }
         ]
       },
       {
         "name": "Promotional",
         "items": [
-          194424265,
-          3671454769,
-          2561402282,
-          2561402283,
-          2561402280,
-          2561402281,
-          2561402286,
-          2571870726
+          {
+            "hash": 194424265,
+            "name": "Oracle 99"
+          },
+          {
+            "hash": 3671454769,
+            "name": "18327496-64703388"
+          },
+          {
+            "hash": 2561402282,
+            "name": "SUROS Minimalist"
+          },
+          {
+            "hash": 2561402283,
+            "name": "Nebula Glow"
+          },
+          {
+            "hash": 2561402280,
+            "name": "Sulfur Burnish"
+          },
+          {
+            "hash": 2561402281,
+            "name": "Electric Aquarius"
+          },
+          {
+            "hash": 2561402286,
+            "name": "The Old Guard"
+          },
+          {
+            "hash": 2571870726,
+            "name": "Infinite Link"
+          }
         ]
       },
       {
         "name": "SRL",
         "items": [
-          3764987316,
-          3764987317,
-          3764987318,
-          3764987319,
-          3764987312,
-          3764987313,
-          3764987314,
-          3764987315
+          {
+            "hash": 3764987316,
+            "name": "Shimmer"
+          },
+          {
+            "hash": 3764987317,
+            "name": "Bright Laurel"
+          },
+          {
+            "hash": 3764987318,
+            "name": "Phosphore"
+          },
+          {
+            "hash": 3764987319,
+            "name": "Krokos"
+          },
+          {
+            "hash": 3764987312,
+            "name": "Midnight Lumos"
+          },
+          {
+            "hash": 3764987313,
+            "name": "Momentum's Pride"
+          },
+          {
+            "hash": 3764987314,
+            "name": "Azura"
+          },
+          {
+            "hash": 3764987315,
+            "name": "Hallow"
+          }
+        ]
+      },
+      {
+        "name": "Unclassified",
+        "items": [
+          {
+            "hash": 202245948,
+            "name": "Kingspyre"
+          },
+          {
+            "hash": 813108078,
+            "name": "Valentine"
+          },
+          {
+            "hash": 813108079,
+            "name": "Rosebright"
+          },
+          {
+            "hash": 1759332257,
+            "name": "Blacksmith"
+          },
+          {
+            "hash": 1759332261,
+            "name": "Chatterwhite"
+          },
+          {
+            "hash": 2874472095,
+            "name": "Prayer of Nepal"
+          },
+          {
+            "hash": 4033743764,
+            "name": "Fortuna Burn"
+          }
         ]
       }
     ]
   },
   {
     "name": "Emblem Collection",
-    "groups": [
+    "subgroups": [
       {
         "name": "Class Starter",
         "items": [
-          1723894001,
-          1723894000,
-          1723894003,
-          855333071,
-          855333070,
-          855333069,
-          776529032,
-          776529033,
-          776529034
+          {
+            "hash": 1723894001,
+            "name": "Officer Crest"
+          },
+          {
+            "hash": 1723894000,
+            "name": "Veteran Crest"
+          },
+          {
+            "hash": 1723894003,
+            "name": "Commander Crest"
+          },
+          {
+            "hash": 855333071,
+            "name": "Aspect of Blood"
+          },
+          {
+            "hash": 855333070,
+            "name": "Aspect of Dust"
+          },
+          {
+            "hash": 855333069,
+            "name": "Aspect of Shadow"
+          },
+          {
+            "hash": 776529032,
+            "name": "Rune of the Disciple"
+          },
+          {
+            "hash": 776529033,
+            "name": "Rune of the Adept"
+          },
+          {
+            "hash": 776529034,
+            "name": "Rune of the Oracle"
+          }
         ]
       },
       {
         "name": "Class",
         "items": [
-          1600609907,
-          1600609906,
-          2840347249,
-          3357380906,
-          3357380907
+          {
+            "hash": 1600609907,
+            "name": "Shield of the Knight"
+          },
+          {
+            "hash": 1600609906,
+            "name": "Shield of the Warlord"
+          },
+          {
+            "hash": 2840347249,
+            "name": "Element of the Shifter"
+          },
+          {
+            "hash": 3357380906,
+            "name": "Symbol of the Sorcerer"
+          },
+          {
+            "hash": 3357380907,
+            "name": "Symbol of the Magister"
+          }
         ]
       },
       {
         "name": "Vendor",
         "items": [
-          2121165345,
-          668012626,
-          718345517,
-          2211817415,
-          1722936867,
-          2211817409,
-          2211817408,
-          2211817411,
-          2211817410,
-          2211817413,
-          2211817412,
-          2211817414,
-          2211817417,
-          2211817416,
-          1230443376,
-          1230443377,
-          1230443378,
-          1230443379,
-          1230443380,
-          2121165344,
-          2121165347,
-          2121165346,
-          2121165349,
-          2121165348,
-          2121165351,
-          2121165350,
-          2121165353,
-          2121165352,
-          668012624,
-          668012625,
-          668012627,
-          668012628,
-          668012629,
-          668012630,
-          668012631,
-          668012632,
-          668012633,
-          718345513,
-          718345512,
-          718345515,
-          718345514,
-          718345516,
-          718345519,
-          718345518,
-          718345505,
-          718345504,
-          1722936866,
-          1722936865,
-          1722936864,
-          1722936871,
-          1722936870,
-          1722936869,
-          1722936868,
-          1722936875,
-          1722936874,
-          3424247734,
-          3424247735,
-          1202047001
+          {
+            "hash": 2121165345,
+            "name": "The Rising"
+          },
+          {
+            "hash": 668012626,
+            "name": "Mammoth II"
+          },
+          {
+            "hash": 718345517,
+            "name": "Cassoid"
+          },
+          {
+            "hash": 2211817415,
+            "name": "Sigil of Seven"
+          },
+          {
+            "hash": 1722936867,
+            "name": "Blessing of the Watcher"
+          },
+          {
+            "hash": 2211817409,
+            "name": "Rune of the Machine"
+          },
+          {
+            "hash": 2211817408,
+            "name": "Winterborn Mark"
+          },
+          {
+            "hash": 2211817411,
+            "name": "Alchemist Cast"
+          },
+          {
+            "hash": 2211817410,
+            "name": "Symbol of the Wolf"
+          },
+          {
+            "hash": 2211817413,
+            "name": "Born of Fire"
+          },
+          {
+            "hash": 2211817412,
+            "name": "Jade Rabbit Insignia"
+          },
+          {
+            "hash": 2211817414,
+            "name": "Emerald Rook"
+          },
+          {
+            "hash": 2211817417,
+            "name": "Archivist's Seal"
+          },
+          {
+            "hash": 2211817416,
+            "name": "Thorium Leaf"
+          },
+          {
+            "hash": 1230443376,
+            "name": "Victory Eagle II"
+          },
+          {
+            "hash": 1230443377,
+            "name": "Crest of the Gravesinger"
+          },
+          {
+            "hash": 1230443378,
+            "name": "Honor of Blades"
+          },
+          {
+            "hash": 1230443379,
+            "name": "Dead Zone Memento"
+          },
+          {
+            "hash": 1230443380,
+            "name": "Echo of Shattered Suns"
+          },
+          {
+            "hash": 2121165344,
+            "name": "Mammoth"
+          },
+          {
+            "hash": 2121165347,
+            "name": "Cyclops Mind"
+          },
+          {
+            "hash": 2121165346,
+            "name": "Sheltered Truth"
+          },
+          {
+            "hash": 2121165349,
+            "name": "Gen Golgotha"
+          },
+          {
+            "hash": 2121165348,
+            "name": "Revolver"
+          },
+          {
+            "hash": 2121165351,
+            "name": "Abraxas"
+          },
+          {
+            "hash": 2121165350,
+            "name": "Bomb Squad"
+          },
+          {
+            "hash": 2121165353,
+            "name": "Command"
+          },
+          {
+            "hash": 2121165352,
+            "name": "Crypto Shift"
+          },
+          {
+            "hash": 668012624,
+            "name": "The Obelisk"
+          },
+          {
+            "hash": 668012625,
+            "name": "The Rising Night"
+          },
+          {
+            "hash": 668012627,
+            "name": "Cyclops Mind II"
+          },
+          {
+            "hash": 668012628,
+            "name": "Sheltered Truth II"
+          },
+          {
+            "hash": 668012629,
+            "name": "Gen Golgotha II"
+          },
+          {
+            "hash": 668012630,
+            "name": "Honeybee IV"
+          },
+          {
+            "hash": 668012631,
+            "name": "Abraxas II"
+          },
+          {
+            "hash": 668012632,
+            "name": "Bomb Squad II"
+          },
+          {
+            "hash": 668012633,
+            "name": "Command II"
+          },
+          {
+            "hash": 718345513,
+            "name": "Crypto Shift II"
+          },
+          {
+            "hash": 718345512,
+            "name": "The Obelisk II"
+          },
+          {
+            "hash": 718345515,
+            "name": "Häkke"
+          },
+          {
+            "hash": 718345514,
+            "name": "Omolon"
+          },
+          {
+            "hash": 718345516,
+            "name": "Daito"
+          },
+          {
+            "hash": 718345519,
+            "name": "Crux/Lomar"
+          },
+          {
+            "hash": 718345518,
+            "name": "Suros"
+          },
+          {
+            "hash": 718345505,
+            "name": "Tex Mechanica"
+          },
+          {
+            "hash": 718345504,
+            "name": "Nadir"
+          },
+          {
+            "hash": 1722936866,
+            "name": "Blessing of the Ancients"
+          },
+          {
+            "hash": 1722936865,
+            "name": "Blessing of the Skeptic"
+          },
+          {
+            "hash": 1722936864,
+            "name": "Blessing of the Sentinel"
+          },
+          {
+            "hash": 1722936871,
+            "name": "Blessing of the Joined"
+          },
+          {
+            "hash": 1722936870,
+            "name": "Blessing of IV"
+          },
+          {
+            "hash": 1722936869,
+            "name": "Blessing of the Speaker"
+          },
+          {
+            "hash": 1722936868,
+            "name": "Blessing of the Unmade"
+          },
+          {
+            "hash": 1722936875,
+            "name": "Blessing of the Gifted"
+          },
+          {
+            "hash": 1722936874,
+            "name": "Blessing of the Zealot"
+          },
+          {
+            "hash": 3424247734,
+            "name": "Blessing of the Knight"
+          },
+          {
+            "hash": 3424247735,
+            "name": "Blessing of Worlds"
+          },
+          {
+            "hash": 1202047001,
+            "name": "Little Light"
+          }
         ]
       },
       {
         "name": "Factions",
         "items": [
-          2765416093,
-          2765416088,
-          2765416089,
-          2765416090,
-          2765416091,
-          2765416092,
-          2267965732,
-          2267965733,
-          2267965734,
-          2267965735,
-          2267965728,
-          2267965729,
-          2259618121,
-          2259618120,
-          2259618123,
-          2259618122,
-          2259618125,
-          2259618124
+          {
+            "hash": 2765416093,
+            "name": "Sigil of Deviance"
+          },
+          {
+            "hash": 2765416088,
+            "name": "Sigil of the War Cult"
+          },
+          {
+            "hash": 2765416089,
+            "name": "Sigil of the War Cult II"
+          },
+          {
+            "hash": 2765416090,
+            "name": "Sigil of the Eternal Night"
+          },
+          {
+            "hash": 2765416091,
+            "name": "Sigil of the Burning Dawn"
+          },
+          {
+            "hash": 2765416092,
+            "name": "Sigil of the Coming War"
+          },
+          {
+            "hash": 2267965732,
+            "name": "Omen of the Dead"
+          },
+          {
+            "hash": 2267965733,
+            "name": "Omen of the Dead II"
+          },
+          {
+            "hash": 2267965734,
+            "name": "Omen of Chaos"
+          },
+          {
+            "hash": 2267965735,
+            "name": "Omen of Chaos II"
+          },
+          {
+            "hash": 2267965728,
+            "name": "Omen of the Exodus"
+          },
+          {
+            "hash": 2267965729,
+            "name": "Omen of the Decayer"
+          },
+          {
+            "hash": 2259618121,
+            "name": "Badge of the Monarchy"
+          },
+          {
+            "hash": 2259618120,
+            "name": "Badge of the Monarchy II"
+          },
+          {
+            "hash": 2259618123,
+            "name": "Badge of the Patron"
+          },
+          {
+            "hash": 2259618122,
+            "name": "Badge of the Patron II"
+          },
+          {
+            "hash": 2259618125,
+            "name": "Executor's Red Mark"
+          },
+          {
+            "hash": 2259618124,
+            "name": "Crown of the New Monarchy"
+          }
         ]
       },
       {
         "name": "Crucible",
         "items": [
-          2326927634,
-          165221410,
-          165221411,
-          3017621395,
-          3017621394,
-          3017621393,
-          3017621392,
-          664737060,
-          664737061,
-          1429062181
+          {
+            "hash": 2326927634,
+            "name": "Sigil of the Iron Lords"
+          },
+          {
+            "hash": 165221410,
+            "name": "Iron Pride"
+          },
+          {
+            "hash": 165221411,
+            "name": "The Ironwood Tree"
+          },
+          {
+            "hash": 3017621395,
+            "name": "Prince Sigil"
+          },
+          {
+            "hash": 3017621394,
+            "name": "Emperor Sigil"
+          },
+          {
+            "hash": 3017621393,
+            "name": "Moon of Osiris"
+          },
+          {
+            "hash": 3017621392,
+            "name": "Sun of Osiris"
+          },
+          {
+            "hash": 664737060,
+            "name": "Hic Jacet"
+          },
+          {
+            "hash": 664737061,
+            "name": "Scarab Heart"
+          },
+          {
+            "hash": 1429062181,
+            "name": "Bastet's Dream"
+          }
         ]
       },
       {
         "name": "Raid",
         "items": [
-          3269301481,
-          2372257459,
-          2372257458,
-          2372257457,
-          2372257456,
-          2372257463
+          {
+            "hash": 3269301481,
+            "name": "Crota's End"
+          },
+          {
+            "hash": 2372257459,
+            "name": "Devourer of Light"
+          },
+          {
+            "hash": 2372257458,
+            "name": "Kingsbane"
+          },
+          {
+            "hash": 2372257457,
+            "name": "The Ascendant"
+          },
+          {
+            "hash": 2372257456,
+            "name": "Worm Gods' Servant"
+          },
+          {
+            "hash": 2372257463,
+            "name": "Of Light and Hunger"
+          }
         ]
       },
       {
         "name": "The Dark Below",
         "items": [
-          3441383075,
-          3441383074,
-          3441383073,
-          3441383072
+          {
+            "hash": 3441383075,
+            "name": "Dark Harvest"
+          },
+          {
+            "hash": 3441383074,
+            "name": "Sigil of Night"
+          },
+          {
+            "hash": 3441383073,
+            "name": "Blade of Crota"
+          },
+          {
+            "hash": 3441383072,
+            "name": "Eris Morn"
+          }
         ]
       },
       {
         "name": "The Taken King",
         "items": [
-          2508872727,
-          1681782011,
-          1681782010,
-          1202047000,
-          2508872726,
-          2508872725,
-          566936481,
-          566936480,
-          1527273555,
-          1527273553,
-          1527273552,
-          1527273559,
-          1527273558,
-          1527273557,
-          1527273556,
-          1527273563,
-          1527273562,
-          2686650662,
-          1429062182,
-          1429062183,
-          1429062180,
-          2596665930,
-          2596665931
+          {
+            "hash": 2508872727,
+            "name": "No Puppet, I"
+          },
+          {
+            "hash": 1681782011,
+            "name": "Dragoon"
+          },
+          {
+            "hash": 1681782010,
+            "name": "Wolfsgrin"
+          },
+          {
+            "hash": 1202047000,
+            "name": "Silent Scream"
+          },
+          {
+            "hash": 2508872726,
+            "name": "Our Kingdom"
+          },
+          {
+            "hash": 2508872725,
+            "name": "Verisimilitude"
+          },
+          {
+            "hash": 566936481,
+            "name": "Spectrum Theory"
+          },
+          {
+            "hash": 566936480,
+            "name": "Flow of Knowledge"
+          },
+          {
+            "hash": 1527273555,
+            "name": "The Pitiless Bargain"
+          },
+          {
+            "hash": 1527273553,
+            "name": "The Perfect Shot"
+          },
+          {
+            "hash": 1527273552,
+            "name": "The Entertainer"
+          },
+          {
+            "hash": 1527273559,
+            "name": "On the Edge"
+          },
+          {
+            "hash": 1527273558,
+            "name": "Might of Vulcan"
+          },
+          {
+            "hash": 1527273557,
+            "name": "The Inexorable"
+          },
+          {
+            "hash": 1527273556,
+            "name": "The Living Wall"
+          },
+          {
+            "hash": 1527273563,
+            "name": "Paean of Resplendence"
+          },
+          {
+            "hash": 1527273562,
+            "name": "Eye of the Storm"
+          },
+          {
+            "hash": 2686650662,
+            "name": "Infinitesimal"
+          },
+          {
+            "hash": 1429062182,
+            "name": "House of Judgment"
+          },
+          {
+            "hash": 1429062183,
+            "name": "Prison of Elders I"
+          },
+          {
+            "hash": 1429062180,
+            "name": "Prison of Elders II"
+          },
+          {
+            "hash": 2596665930,
+            "name": "Shield of the Traveler"
+          },
+          {
+            "hash": 2596665931,
+            "name": "Hear the Call"
+          }
         ]
       },
       {
         "name": "Promotional",
         "items": [
-          1592588001,
-          1409854024,
-          1426631713,
-          1426631718,
-          1426631719,
-          1426631716,
-          1426631717,
-          1426631722,
-          1426631723,
-          1443409301,
-          1443409300,
-          1443409303,
-          1443409302,
-          1443409298,
-          1443409308,
-          1325965977,
-          3253299356,
-          3253299357,
-          3580794342,
-          2686650663
+          {
+            "hash": 1592588001,
+            "name": "Vanguard Honor"
+          },
+          {
+            "hash": 1409854024,
+            "name": "Sign of the Founders"
+          },
+          {
+            "hash": 1426631713,
+            "name": "Rising Light"
+          },
+          {
+            "hash": 1426631718,
+            "name": "Illusion of Light"
+          },
+          {
+            "hash": 1426631719,
+            "name": "Ab Aeterno"
+          },
+          {
+            "hash": 1426631716,
+            "name": "Note of Conquest"
+          },
+          {
+            "hash": 1426631717,
+            "name": "Binding Focus"
+          },
+          {
+            "hash": 1426631722,
+            "name": "The Reflective Proof"
+          },
+          {
+            "hash": 1426631723,
+            "name": "Flames of Forgotten Truth"
+          },
+          {
+            "hash": 1443409301,
+            "name": "Lone Focus, Jagged Edge"
+          },
+          {
+            "hash": 1443409300,
+            "name": "Field of Light"
+          },
+          {
+            "hash": 1443409303,
+            "name": "The Unimagined Plane"
+          },
+          {
+            "hash": 1443409302,
+            "name": "Insula Thesauraria"
+          },
+          {
+            "hash": 1443409298,
+            "name": "Sign of the Finite"
+          },
+          {
+            "hash": 1443409308,
+            "name": "The Undying Light"
+          },
+          {
+            "hash": 1325965977,
+            "name": "Earthborn"
+          },
+          {
+            "hash": 3253299356,
+            "name": "SUROS Fire"
+          },
+          {
+            "hash": 3253299357,
+            "name": "Be Brave"
+          },
+          {
+            "hash": 3580794342,
+            "name": "Sign of the Infinite"
+          },
+          {
+            "hash": 2686650663,
+            "name": "Laurea Prima"
+          }
         ]
       },
       {
         "name": "House of Wolves",
         "items": [
-          3300361771,
-          3300361770,
-          1825970522,
-          1825970520,
-          1825970523,
-          1459499349,
-          3656150982,
-          3656150983,
-          3656150980
+          {
+            "hash": 3300361771,
+            "name": "Queen's Guard Crest"
+          },
+          {
+            "hash": 3300361770,
+            "name": "Crown of the Sovereign"
+          },
+          {
+            "hash": 1825970522,
+            "name": "Corsair's Badge"
+          },
+          {
+            "hash": 1825970520,
+            "name": "Paladin's Blazon"
+          },
+          {
+            "hash": 1825970523,
+            "name": "Sentinel's Crest"
+          },
+          {
+            "hash": 1459499349,
+            "name": "Wolfhunter"
+          },
+          {
+            "hash": 3656150982,
+            "name": "Firm Decree"
+          },
+          {
+            "hash": 3656150983,
+            "name": "Judgment's Right Hand"
+          },
+          {
+            "hash": 3656150980,
+            "name": "Kellbreaker"
+          }
         ]
       },
       {
         "name": "SRL",
         "items": [
-          1777175507,
-          1777175508
+          {
+            "hash": 1777175507,
+            "name": "Sign of Momentum"
+          },
+          {
+            "hash": 1777175508,
+            "name": "Winner's Circle"
+          }
+        ]
+      },
+      {
+        "name": "Unclassified",
+        "items": [
+          {
+            "hash": 70035233,
+            "name": "Pride of Nepal"
+          },
+          {
+            "hash": 407373286,
+            "name": "Crimson Crest"
+          },
+          {
+            "hash": 638473393,
+            "name": "Beryl Cometary"
+          },
+          {
+            "hash": 638473396,
+            "name": "Lost and Foundries"
+          },
+          {
+            "hash": 638473397,
+            "name": "Exomoon"
+          },
+          {
+            "hash": 638473398,
+            "name": "Frames of Mind"
+          },
+          {
+            "hash": 638473399,
+            "name": "Sunset City"
+          },
+          {
+            "hash": 974754712,
+            "name": "Summersong"
+          },
+          {
+            "hash": 974754714,
+            "name": "Dragoon"
+          },
+          {
+            "hash": 974754715,
+            "name": "Wolfsgrin"
+          },
+          {
+            "hash": 1202047003,
+            "name": "Off to the Races"
+          },
+          {
+            "hash": 1325965968,
+            "name": "Sign of the Battleborn"
+          },
+          {
+            "hash": 1325965969,
+            "name": "Union of Light"
+          },
+          {
+            "hash": 1325965970,
+            "name": "Hunger"
+          },
+          {
+            "hash": 1325965971,
+            "name": "Dawn of Destiny"
+          },
+          {
+            "hash": 1325965972,
+            "name": "7-7 Ad Infinitum"
+          },
+          {
+            "hash": 1325965973,
+            "name": "Heart of the Foundation"
+          },
+          {
+            "hash": 1325965974,
+            "name": "Eye of Eternity"
+          },
+          {
+            "hash": 1325965975,
+            "name": "Anchor's End"
+          },
+          {
+            "hash": 1325965976,
+            "name": "Hexacon 4"
+          },
+          {
+            "hash": 1342743553,
+            "name": "Resurrectionist"
+          },
+          {
+            "hash": 1342743554,
+            "name": "Archer's Hope"
+          },
+          {
+            "hash": 1342743555,
+            "name": "The Inner Circle"
+          },
+          {
+            "hash": 1409854022,
+            "name": "City Force"
+          },
+          {
+            "hash": 1409854023,
+            "name": "Song of the Spheres"
+          },
+          {
+            "hash": 1409854025,
+            "name": "Sign of the Elders"
+          },
+          {
+            "hash": 1409854026,
+            "name": "Sign of the Ancients"
+          },
+          {
+            "hash": 1409854027,
+            "name": "Sign of the Protectorate"
+          },
+          {
+            "hash": 1409854028,
+            "name": "World Domination"
+          },
+          {
+            "hash": 1409854029,
+            "name": "Transcendence"
+          },
+          {
+            "hash": 1409854030,
+            "name": "The Inner Chamber"
+          },
+          {
+            "hash": 1409854031,
+            "name": "The Convergence"
+          },
+          {
+            "hash": 1426631712,
+            "name": "Scholar's Quest"
+          },
+          {
+            "hash": 1426631714,
+            "name": "From Here, The Stars"
+          },
+          {
+            "hash": 1426631715,
+            "name": "The Winding Path"
+          },
+          {
+            "hash": 1443409296,
+            "name": "Sign of Opposing Will"
+          },
+          {
+            "hash": 1443409297,
+            "name": "Sign of Containment"
+          },
+          {
+            "hash": 1443409299,
+            "name": "Sign of Duality"
+          },
+          {
+            "hash": 1443409309,
+            "name": "Sign of Unity"
+          },
+          {
+            "hash": 1527273554,
+            "name": "Speak in Riddles"
+          },
+          {
+            "hash": 1592588000,
+            "name": "Founder's Seal"
+          },
+          {
+            "hash": 1592588002,
+            "name": "Pathfinder Sign"
+          },
+          {
+            "hash": 1592588003,
+            "name": "Star of Moderation"
+          },
+          {
+            "hash": 1592588004,
+            "name": "Shield of Heroes"
+          },
+          {
+            "hash": 1592588005,
+            "name": "Shield of Legends"
+          },
+          {
+            "hash": 1592588006,
+            "name": "Shield of Mythics"
+          },
+          {
+            "hash": 1592588007,
+            "name": "Vanguard Insignia"
+          },
+          {
+            "hash": 1592588012,
+            "name": "Mentor's Badge"
+          },
+          {
+            "hash": 1592588013,
+            "name": "Tip of the Spear"
+          },
+          {
+            "hash": 1681782009,
+            "name": "Summersong"
+          },
+          {
+            "hash": 1777175504,
+            "name": "Martius Momentum"
+          },
+          {
+            "hash": 1777175505,
+            "name": "Blessing of Momentum"
+          },
+          {
+            "hash": 1777175506,
+            "name": "Signet of Speed"
+          },
+          {
+            "hash": 2326927635,
+            "name": "Scar of Radegast"
+          },
+          {
+            "hash": 2840347248,
+            "name": "Element of the Dead Sun"
+          },
+          {
+            "hash": 3017621399,
+            "name": "Eye of Osiris"
+          },
+          {
+            "hash": 3253299358,
+            "name": "Insula Thesauraria"
+          },
+          {
+            "hash": 4136763184,
+            "name": "Eye of Osiris"
+          },
+          {
+            "hash": 4136763188,
+            "name": "Prince Sigil"
+          },
+          {
+            "hash": 4136763189,
+            "name": "Emperor Sigil"
+          },
+          {
+            "hash": 4136763190,
+            "name": "Moon of Osiris"
+          },
+          {
+            "hash": 4136763191,
+            "name": "Sun of Osiris"
+          }
         ]
       }
     ]
   },
   {
     "name": "Emote Collection",
-    "groups": [
+    "subgroups": [
       {
         "name": "Dances",
         "items": [
-          4157751601,
-          1898440947,
-          2676353744,
-          1550204376,
-          3914027663,
-          3459355065,
-          1235719490,
-          3854908333,
-          1356246089,
-          1757943623,
-          1065410231,
-          1995339316,
-          2101245872
+          {
+            "hash": 4157751601,
+            "name": "The Sprinkler"
+          },
+          {
+            "hash": 1898440947,
+            "name": "Ham(mer) It Up"
+          },
+          {
+            "hash": 2676353744,
+            "name": "The Circle Glide"
+          },
+          {
+            "hash": 1550204376,
+            "name": "Awkward Dance"
+          },
+          {
+            "hash": 3914027663,
+            "name": "Strange Dance"
+          },
+          {
+            "hash": 3459355065,
+            "name": "Energetic Dance"
+          },
+          {
+            "hash": 1235719490,
+            "name": "Enthusiastic Dance"
+          },
+          {
+            "hash": 3854908333,
+            "name": "Duo Dance"
+          },
+          {
+            "hash": 1356246089,
+            "name": "Zombie Dance"
+          },
+          {
+            "hash": 1757943623,
+            "name": "Monster Dance"
+          },
+          {
+            "hash": 1065410231,
+            "name": "Club Dance"
+          },
+          {
+            "hash": 1995339316,
+            "name": "Kicks Dance"
+          },
+          {
+            "hash": 2101245872,
+            "name": "Instructional Dance"
+          }
         ]
       },
       {
         "name": "Emotes I",
         "items": [
-          2568278759,
-          551599328,
-          455941427,
-          894673204,
-          782291710,
-          104480050,
-          2398635885,
-          1539607709,
-          3419008352,
-          1050001051,
-          2878029263,
-          1165318702,
-          2999300344,
-          3530791991,
-          2890030645,
-          2999300345,
-          3905398596,
-          1621381911,
-          59705806,
-          2320111599,
-          4020250093,
-          1487483055,
-          2502362438,
-          149944960,
-          3324631613,
-          3292693501,
-          760982642,
-          1994978985,
-          231112306,
-          2271714034,
-          1501442124,
-          926158169,
-          3697257119,
-          1314848443,
-          901968438,
-          1225895251,
-          587517588,
-          2230667230,
-          688599630,
-          890991543,
-          2876397540,
-          4273914935,
-          1849251730,
-          3830276165,
-          3821472318,
-          2518499202,
-          2971925023,
-          4255953676
+          {
+            "hash": 2568278759,
+            "name": "Secret Greeting"
+          },
+          {
+            "hash": 551599328,
+            "name": "Fist Bump"
+          },
+          {
+            "hash": 455941427,
+            "name": "Victory Wave"
+          },
+          {
+            "hash": 894673204,
+            "name": "High Five"
+          },
+          {
+            "hash": 782291710,
+            "name": "Air Guitar"
+          },
+          {
+            "hash": 104480050,
+            "name": "Bow Down"
+          },
+          {
+            "hash": 2398635885,
+            "name": "Slow Clap"
+          },
+          {
+            "hash": 1539607709,
+            "name": "Jazz Hands"
+          },
+          {
+            "hash": 3419008352,
+            "name": "Facepalm"
+          },
+          {
+            "hash": 1050001051,
+            "name": "Charmed"
+          },
+          {
+            "hash": 2878029263,
+            "name": "Point"
+          },
+          {
+            "hash": 1165318702,
+            "name": "Oh, Please"
+          },
+          {
+            "hash": 2999300344,
+            "name": "Victory Cheer"
+          },
+          {
+            "hash": 3530791991,
+            "name": "Booyah"
+          },
+          {
+            "hash": 2890030645,
+            "name": "Formal Bow"
+          },
+          {
+            "hash": 2999300345,
+            "name": "Pumped Up"
+          },
+          {
+            "hash": 3905398596,
+            "name": "Evil Scheme"
+          },
+          {
+            "hash": 1621381911,
+            "name": "Come at Me"
+          },
+          {
+            "hash": 59705806,
+            "name": "Congrats"
+          },
+          {
+            "hash": 2320111599,
+            "name": "Sorrow"
+          },
+          {
+            "hash": 4020250093,
+            "name": "Cower"
+          },
+          {
+            "hash": 1487483055,
+            "name": "Bring It On"
+          },
+          {
+            "hash": 2502362438,
+            "name": "Tantrum"
+          },
+          {
+            "hash": 149944960,
+            "name": "Watch Your Back"
+          },
+          {
+            "hash": 3324631613,
+            "name": "Blowing a Kiss"
+          },
+          {
+            "hash": 3292693501,
+            "name": "Boo"
+          },
+          {
+            "hash": 760982642,
+            "name": "Swing"
+          },
+          {
+            "hash": 1994978985,
+            "name": "Safe"
+          },
+          {
+            "hash": 231112306,
+            "name": "Laugh"
+          },
+          {
+            "hash": 2271714034,
+            "name": "Flip Coin"
+          },
+          {
+            "hash": 1501442124,
+            "name": "Thumbs Up"
+          },
+          {
+            "hash": 926158169,
+            "name": "Thumbs Down"
+          },
+          {
+            "hash": 3697257119,
+            "name": "Clap"
+          },
+          {
+            "hash": 1314848443,
+            "name": "Sad"
+          },
+          {
+            "hash": 901968438,
+            "name": "Yawn"
+          },
+          {
+            "hash": 1225895251,
+            "name": "Forehead Slap"
+          },
+          {
+            "hash": 587517588,
+            "name": "Yes"
+          },
+          {
+            "hash": 2230667230,
+            "name": "Nope"
+          },
+          {
+            "hash": 688599630,
+            "name": "Bye-Bye"
+          },
+          {
+            "hash": 890991543,
+            "name": "Crane Kick"
+          },
+          {
+            "hash": 2876397540,
+            "name": "Rude Taunt"
+          },
+          {
+            "hash": 4273914935,
+            "name": "Praise the Gun"
+          },
+          {
+            "hash": 1849251730,
+            "name": "I Don't Know"
+          },
+          {
+            "hash": 3830276165,
+            "name": "Do It"
+          },
+          {
+            "hash": 3821472318,
+            "name": "Amazed"
+          },
+          {
+            "hash": 2518499202,
+            "name": "Praise the Light"
+          },
+          {
+            "hash": 2971925023,
+            "name": "Sumo"
+          },
+          {
+            "hash": 4255953676,
+            "name": "Taken Shiver"
+          }
+        ]
+      },
+      {
+        "name": "Unclassified",
+        "items": [
+          {
+            "hash": 1998826,
+            "name": "Yawn"
+          },
+          {
+            "hash": 36547999,
+            "name": "Oh, Please"
+          },
+          {
+            "hash": 69285333,
+            "name": "Watch Your Back"
+          },
+          {
+            "hash": 148425980,
+            "name": "Come at Me"
+          },
+          {
+            "hash": 166246804,
+            "name": "Sorrow"
+          },
+          {
+            "hash": 194954036,
+            "name": "Fist Bump"
+          },
+          {
+            "hash": 722897797,
+            "name": "Thumbs Down"
+          },
+          {
+            "hash": 1012214691,
+            "name": "Strange Dance"
+          },
+          {
+            "hash": 1030821803,
+            "name": "Clap"
+          },
+          {
+            "hash": 1078697174,
+            "name": "Festive Laugh"
+          },
+          {
+            "hash": 1229019741,
+            "name": "Congrats"
+          },
+          {
+            "hash": 1245117039,
+            "name": "Tantrum"
+          },
+          {
+            "hash": 1265978022,
+            "name": "Blowing a Kiss"
+          },
+          {
+            "hash": 1430337280,
+            "name": "Slow Clap"
+          },
+          {
+            "hash": 1711976559,
+            "name": "Sad"
+          },
+          {
+            "hash": 1724707782,
+            "name": "Flip Coin"
+          },
+          {
+            "hash": 1760702612,
+            "name": "Cower"
+          },
+          {
+            "hash": 2101245873,
+            "name": "Instructional Dance"
+          },
+          {
+            "hash": 2167163120,
+            "name": "Thumbs Up"
+          },
+          {
+            "hash": 2252720602,
+            "name": "Booyah"
+          },
+          {
+            "hash": 2310248132,
+            "name": "Formal Bow"
+          },
+          {
+            "hash": 2322943556,
+            "name": "Facepalm"
+          },
+          {
+            "hash": 2510382711,
+            "name": "Forehead Slap"
+          },
+          {
+            "hash": 2512244188,
+            "name": "Awkward Dance"
+          },
+          {
+            "hash": 2710055156,
+            "name": "Safe"
+          },
+          {
+            "hash": 2863514054,
+            "name": "Bring It On"
+          },
+          {
+            "hash": 2954214516,
+            "name": "Pumped Up"
+          },
+          {
+            "hash": 2954214517,
+            "name": "Victory Cheer"
+          },
+          {
+            "hash": 3002843078,
+            "name": "Laugh"
+          },
+          {
+            "hash": 3082254839,
+            "name": "Evil Scheme"
+          },
+          {
+            "hash": 3389337815,
+            "name": "Enthusiastic Dance"
+          },
+          {
+            "hash": 3467265957,
+            "name": "Energetic Dance"
+          },
+          {
+            "hash": 3470640905,
+            "name": "Jazz Hands"
+          },
+          {
+            "hash": 4163294739,
+            "name": "Secret Greeting"
+          },
+          {
+            "hash": 4207424341,
+            "name": "Swing"
+          },
+          {
+            "hash": 4215308994,
+            "name": "Air Guitar"
+          },
+          {
+            "hash": 4264299181,
+            "name": "Charmed"
+          }
         ]
       }
     ]
   },
   {
     "name": "Vehicles",
-    "groups": [
+    "subgroups": [
       {
         "name": "Basic",
         "items": [
-          1614459137,
-          1808632558,
-          1808632559,
-          1808632556,
-          3665240234,
-          3665240235,
-          3665240232,
-          250113089,
-          250113088,
-          250113091
+          {
+            "hash": 1614459137,
+            "name": "Sparrow S-10"
+          },
+          {
+            "hash": 1808632558,
+            "name": "S-20 Nomad"
+          },
+          {
+            "hash": 1808632559,
+            "name": "S-21 Nomad"
+          },
+          {
+            "hash": 1808632556,
+            "name": "S-22 Nomad"
+          },
+          {
+            "hash": 3665240234,
+            "name": "S-20 Cavalier"
+          },
+          {
+            "hash": 3665240235,
+            "name": "S-21 Cavalier"
+          },
+          {
+            "hash": 3665240232,
+            "name": "S-22 Cavalier"
+          },
+          {
+            "hash": 250113089,
+            "name": "S-20 Seeker"
+          },
+          {
+            "hash": 250113088,
+            "name": "S-21 Seeker"
+          },
+          {
+            "hash": 250113091,
+            "name": "S-22 Seeker"
+          }
         ]
       },
       {
         "name": "Vanguard",
         "items": [
-          3645385954,
-          3645385955,
-          3645385952
+          {
+            "hash": 3645385954,
+            "name": "Sparrow S-30V"
+          },
+          {
+            "hash": 3645385955,
+            "name": "Sparrow S-31V"
+          },
+          {
+            "hash": 3645385952,
+            "name": "Sparrow S-32V"
+          }
         ]
       },
       {
         "name": "Upgraded",
         "items": [
-          271835217,
-          271835216,
-          271835219,
-          271835218,
-          557229690,
-          557229691,
-          557229688,
-          557229689,
-          1972896863,
-          1972896862,
-          1972896861,
-          1972896860,
-          3057488396,
-          3057488397,
-          3057488398,
-          3057488399,
-          282302547,
-          282302546,
-          282302545,
-          282302544,
-          1409222510,
-          1409222511,
-          1409222508,
-          1409222509
+          {
+            "hash": 271835217,
+            "name": "Upgraded S-30V"
+          },
+          {
+            "hash": 271835216,
+            "name": "S-30V"
+          },
+          {
+            "hash": 271835219,
+            "name": "S-30V"
+          },
+          {
+            "hash": 271835218,
+            "name": "S-30V"
+          },
+          {
+            "hash": 557229690,
+            "name": "S-31V"
+          },
+          {
+            "hash": 557229691,
+            "name": "S-31V"
+          },
+          {
+            "hash": 557229688,
+            "name": "S-31V"
+          },
+          {
+            "hash": 557229689,
+            "name": "S-31V"
+          },
+          {
+            "hash": 1972896863,
+            "name": "S-32V"
+          },
+          {
+            "hash": 1972896862,
+            "name": "S-32V"
+          },
+          {
+            "hash": 1972896861,
+            "name": "S-32V"
+          },
+          {
+            "hash": 1972896860,
+            "name": "S-32V"
+          },
+          {
+            "hash": 3057488396,
+            "name": "Upgraded S-30C"
+          },
+          {
+            "hash": 3057488397,
+            "name": "Upgraded S-30C"
+          },
+          {
+            "hash": 3057488398,
+            "name": "Upgraded S-30C"
+          },
+          {
+            "hash": 3057488399,
+            "name": "Upgraded S-30C"
+          },
+          {
+            "hash": 282302547,
+            "name": "Upgraded S-31C"
+          },
+          {
+            "hash": 282302546,
+            "name": "Upgraded S-31C"
+          },
+          {
+            "hash": 282302545,
+            "name": "Upgraded S-31C"
+          },
+          {
+            "hash": 282302544,
+            "name": "Upgraded S-31C"
+          },
+          {
+            "hash": 1409222510,
+            "name": "Upgraded S-32C"
+          },
+          {
+            "hash": 1409222511,
+            "name": "Upgraded S-32C"
+          },
+          {
+            "hash": 1409222508,
+            "name": "Upgraded S-32C"
+          },
+          {
+            "hash": 1409222509,
+            "name": "Upgraded S-32C"
+          }
         ]
       },
       {
         "name": "Raid",
         "items": [
-          1202967480,
-          845577225
+          {
+            "hash": 1202967480,
+            "name": "XV0 \"Timebreaker\""
+          },
+          {
+            "hash": 845577225,
+            "name": "S-13 \"Graverobber\""
+          }
         ]
       },
       {
         "name": "Promotional",
         "items": [
-          3703598457,
-          2854740186,
-          2854740187,
-          2071910708,
-          314895450
+          {
+            "hash": 3703598457,
+            "name": "EV-30 Tumbler"
+          },
+          {
+            "hash": 2854740186,
+            "name": "S-34 Ravensteel"
+          },
+          {
+            "hash": 2854740187,
+            "name": "SR-0 Swiftriver"
+          },
+          {
+            "hash": 2854740184,
+            "name": "SR-1 Swiftriver"
+          },
+          {
+            "hash": 2071910708,
+            "name": "EV-34 Vector Infinite"
+          },
+          {
+            "hash": 314895450,
+            "name": "Velumbra"
+          }
         ]
       },
       {
         "name": "Crucible",
         "items": [
-          2489698229,
-          2489698228,
-          2489698231
+          {
+            "hash": 2489698229,
+            "name": "S-30C Phoenix"
+          },
+          {
+            "hash": 2489698228,
+            "name": "S-31C Phoenix"
+          },
+          {
+            "hash": 2489698231,
+            "name": "S-32C Phoenix"
+          }
         ]
       },
       {
         "name": "SRL",
         "items": [
-          2092342454,
-          2092342452,
-          2092342453,
-          2092342455,
-          2092342450,
-          2092342451,
-          2092342448,
-          2092342449,
-          2092342462
+          {
+            "hash": 2092342454,
+            "name": "EV-35 Arcrunner"
+          },
+          {
+            "hash": 2092342452,
+            "name": "EV-36 Solscout"
+          },
+          {
+            "hash": 2092342453,
+            "name": "EV-37 Voidstreak"
+          },
+          {
+            "hash": 2092342455,
+            "name": "EV-38 Laurelbearer"
+          },
+          {
+            "hash": 2092342450,
+            "name": "EV-39 Lumos"
+          },
+          {
+            "hash": 2092342451,
+            "name": "EV-40 Snowscream"
+          },
+          {
+            "hash": 2092342448,
+            "name": "EV-41 Momentum Master"
+          },
+          {
+            "hash": 2092342449,
+            "name": "EV-42 Nightsteed"
+          },
+          {
+            "hash": 2092342462,
+            "name": "EV-43 Lightrunner"
+          }
         ]
       },
       {
         "name": "Sparrow Horns",
         "items": [
-          4219537949
+          {
+            "hash": 4219537949,
+            "name": "Happy Horn"
+          }
         ]
       },
       {
         "name": "Eververse Trading Company",
         "items": [
-          162325542
+          {
+            "hash": 162325542,
+            "name": "S-35 Aeon Glow"
+          }
         ]
       },
       {
         "name": "The Taken King",
         "items": [
-          162325543
+          {
+            "hash": 162325543,
+            "name": "Days of Wind"
+          }
+        ]
+      },
+      {
+        "name": "Unclassified",
+        "items": [
+          {
+            "hash": 1400261164,
+            "name": "SV7 \"Morrow's Gait\""
+          },
+          {
+            "hash": 1614459136,
+            "name": "Sparrow S-11"
+          },
+          {
+            "hash": 1644984124,
+            "name": "Sparrow S-10V"
+          },
+          {
+            "hash": 1847724946,
+            "name": "F11 \"Scavenger\""
+          },
+          {
+            "hash": 3063953653,
+            "name": "SV7 \"War Runner\""
+          },
+          {
+            "hash": 3703598456,
+            "name": "EV-31 Nightbird"
+          },
+          {
+            "hash": 3703598458,
+            "name": "EV-33 Dragonrider"
+          },
+          {
+            "hash": 3703598459,
+            "name": "EV-32 Snowblind"
+          }
         ]
       }
     ]
   },
   {
     "name": "Ship Collection",
-    "groups": [
+    "subgroups": [
       {
         "name": "Vendor",
         "items": [
-          4141295018,
-          4141295020,
-          4141295019,
-          4141295016,
-          4141295017,
-          4141295022,
-          4141295023,
-          4141295021,
-          4141295010,
-          4141295011,
-          1068518401,
-          1068518400,
-          1068518403,
-          1068518402,
-          1068518405,
-          1068518404,
-          1068518407,
-          1068518406,
-          1491990345,
-          268122073,
-          268122074,
-          268122072,
-          4254137628,
-          4254137629,
-          4254137630,
-          1491990344,
-          1491990347,
-          4254137631,
-          4254137624,
-          4254137625,
-          268122077,
-          268122075,
-          268122076,
-          1491990346,
-          1491990349,
-          1491990348
+          {
+            "hash": 4141295018,
+            "name": "Phaeton Class v1"
+          },
+          {
+            "hash": 4141295020,
+            "name": "Kestrel Class AX"
+          },
+          {
+            "hash": 4141295019,
+            "name": "Phaeton Class v2"
+          },
+          {
+            "hash": 4141295016,
+            "name": "Phaeton Class v3"
+          },
+          {
+            "hash": 4141295017,
+            "name": "Regulus Class 55"
+          },
+          {
+            "hash": 4141295022,
+            "name": "Regulus Class 77"
+          },
+          {
+            "hash": 4141295023,
+            "name": "Regulus Class 99"
+          },
+          {
+            "hash": 4141295021,
+            "name": "Kestrel Class CX"
+          },
+          {
+            "hash": 4141295010,
+            "name": "Kestrel Class EX"
+          },
+          {
+            "hash": 4141295011,
+            "name": "Phaeton Class v1.1"
+          },
+          {
+            "hash": 1068518401,
+            "name": "Phaeton Class v2.1"
+          },
+          {
+            "hash": 1068518400,
+            "name": "Phaeton Class v3.1"
+          },
+          {
+            "hash": 1068518403,
+            "name": "Regulus Class 22a"
+          },
+          {
+            "hash": 1068518402,
+            "name": "Regulus Class 44b"
+          },
+          {
+            "hash": 1068518405,
+            "name": "Regulus Class 66c"
+          },
+          {
+            "hash": 1068518404,
+            "name": "Kestrel Class AX0"
+          },
+          {
+            "hash": 1068518407,
+            "name": "Kestrel Class CX0"
+          },
+          {
+            "hash": 1068518406,
+            "name": "Kestrel Class EX0"
+          },
+          {
+            "hash": 1491990345,
+            "name": "AX19 Spindle Demon"
+          },
+          {
+            "hash": 268122073,
+            "name": "NS44 Cloud Errant"
+          },
+          {
+            "hash": 268122074,
+            "name": "NS66 Cloud Errant"
+          },
+          {
+            "hash": 268122072,
+            "name": "NS22 Cloud Errant"
+          },
+          {
+            "hash": 4254137628,
+            "name": "LRv1 Javelin"
+          },
+          {
+            "hash": 4254137629,
+            "name": "LRv2 Javelin"
+          },
+          {
+            "hash": 4254137630,
+            "name": "LRv3 Javelin"
+          },
+          {
+            "hash": 1491990344,
+            "name": "CX20 Spindle Demon"
+          },
+          {
+            "hash": 1491990347,
+            "name": "EX21 Spindle Demon"
+          },
+          {
+            "hash": 4254137631,
+            "name": "AFv1 Octavian"
+          },
+          {
+            "hash": 4254137624,
+            "name": "AFv2 Octavian"
+          },
+          {
+            "hash": 4254137625,
+            "name": "AFv3 Octavian"
+          },
+          {
+            "hash": 268122077,
+            "name": "NS66 High Water"
+          },
+          {
+            "hash": 268122075,
+            "name": "NS22 High Water"
+          },
+          {
+            "hash": 268122076,
+            "name": "NS44 High Water"
+          },
+          {
+            "hash": 1491990346,
+            "name": "AX19 Slipper Misfit"
+          },
+          {
+            "hash": 1491990349,
+            "name": "CX20 Slipper Misfit"
+          },
+          {
+            "hash": 1491990348,
+            "name": "EX21 Slipper Misfit"
+          }
         ]
       },
       {
         "name": "Treasure",
         "items": [
-          526316387,
-          526316386,
-          526316385,
-          526316384,
-          526316391,
-          526316390,
-          526316389,
-          526316388,
-          526316395
+          {
+            "hash": 526316387,
+            "name": "\"Rope to Heaven\""
+          },
+          {
+            "hash": 526316386,
+            "name": "\"The Fangs of Nyx\""
+          },
+          {
+            "hash": 526316385,
+            "name": "\"Laughing Behind Your Back\""
+          },
+          {
+            "hash": 526316384,
+            "name": "\"Quite Content Damsel\""
+          },
+          {
+            "hash": 526316391,
+            "name": "\"Eon Trespass\""
+          },
+          {
+            "hash": 526316390,
+            "name": "\"Karuna, Falling\""
+          },
+          {
+            "hash": 526316389,
+            "name": "\"Aurora Lance\""
+          },
+          {
+            "hash": 526316388,
+            "name": "\"Crypt Hammer\""
+          },
+          {
+            "hash": 526316395,
+            "name": "\"Outrageous Fortune\""
+          }
         ]
       },
       {
         "name": "Crucible",
         "items": [
-          2695084041,
-          3926270235,
-          3043619339,
-          3808257331,
-          3808257330,
-          3808257329,
-          1096884852,
-          1096884855,
-          1096884849,
-          1096884848,
-          1096884851,
-          1096884861,
-          1609120940,
-          1609120941
+          {
+            "hash": 2695084041,
+            "name": "\"Birth of History\""
+          },
+          {
+            "hash": 3926270235,
+            "name": "\"Hebridean Thoughtcrime\""
+          },
+          {
+            "hash": 3043619339,
+            "name": "\"Draught of Nectar\""
+          },
+          {
+            "hash": 3808257331,
+            "name": "\"Sidereal Rumba\""
+          },
+          {
+            "hash": 3808257330,
+            "name": "\"Mind Bleacher\""
+          },
+          {
+            "hash": 3808257329,
+            "name": "\"High and Flighty\""
+          },
+          {
+            "hash": 1096884852,
+            "name": "\"Smokehouse Six\""
+          },
+          {
+            "hash": 1096884855,
+            "name": "\"80 Proofreader\""
+          },
+          {
+            "hash": 1096884849,
+            "name": "\"Steel Atreus\""
+          },
+          {
+            "hash": 1096884848,
+            "name": "\"Shark Whisperer\""
+          },
+          {
+            "hash": 1096884851,
+            "name": "\"Act on Instinct\""
+          },
+          {
+            "hash": 1096884861,
+            "name": "\"The Dirigible Incorrigible\""
+          },
+          {
+            "hash": 1609120940,
+            "name": "\"Seraphim Toaster\""
+          },
+          {
+            "hash": 1609120941,
+            "name": "\"Plasma Donor\""
+          }
         ]
       },
       {
         "name": "Factions",
         "items": [
-          397406333,
-          4159905410,
-          1855911072,
-          3598189791,
-          3524149558,
-          4043575177,
-          3362576764,
-          2511884019,
-          3206937312
+          {
+            "hash": 397406333,
+            "name": "\"Vacuum Diagram\""
+          },
+          {
+            "hash": 4159905410,
+            "name": "\"The Fermi Solution\""
+          },
+          {
+            "hash": 1855911072,
+            "name": "\"Kondratyuk's Escape\""
+          },
+          {
+            "hash": 3598189791,
+            "name": "\"The Climb\""
+          },
+          {
+            "hash": 3524149558,
+            "name": "\"The Teilhard War\""
+          },
+          {
+            "hash": 4043575177,
+            "name": "\"The Road Unraveled\""
+          },
+          {
+            "hash": 3362576764,
+            "name": "\"Armor of Vows\""
+          },
+          {
+            "hash": 2511884019,
+            "name": "\"The Visible Hand\""
+          },
+          {
+            "hash": 3206937312,
+            "name": "\"Comitatus\""
+          }
         ]
       },
       {
         "name": "Raid",
         "items": [
-          671526060,
-          671526061,
-          3458901841,
-          3458901840,
-          885685675
+          {
+            "hash": 671526060,
+            "name": "\"Glass Minuet\""
+          },
+          {
+            "hash": 671526061,
+            "name": "\"Aspect of Glass\""
+          },
+          {
+            "hash": 3458901841,
+            "name": "\"Light in the Abyss\""
+          },
+          {
+            "hash": 3458901840,
+            "name": "\"Bane of Dark Gods\""
+          },
+          {
+            "hash": 885685675,
+            "name": "Agonarch Karve"
+          }
         ]
       },
       {
         "name": "Promotional",
         "items": [
-          2390487995
+          {
+            "hash": 2390487995,
+            "name": "Arcadia Class Jumpship"
+          }
         ]
       },
       {
         "name": "Strike",
         "items": [
-          2245431210,
-          1388583990,
-          1388583991
+          {
+            "hash": 2245431210,
+            "name": "\"Atalanta's Hunt\""
+          },
+          {
+            "hash": 1388583990,
+            "name": "\"Ticktock Inquisitor\""
+          },
+          {
+            "hash": 1388583991,
+            "name": "\"Scorpio Miracle\""
+          }
         ]
       },
       {
         "name": "House of Wolves",
         "items": [
-          2171840887,
-          2171840886,
-          2171840885,
-          2171840884,
-          923499578,
-          923499579
+          {
+            "hash": 2171840887,
+            "name": "Devils' Due BKR"
+          },
+          {
+            "hash": 2171840886,
+            "name": "Kingslayer BKR"
+          },
+          {
+            "hash": 2171840885,
+            "name": "Coldsnap BKR"
+          },
+          {
+            "hash": 2171840884,
+            "name": "Wolf Hunter BKR"
+          },
+          {
+            "hash": 923499578,
+            "name": "Ceres Galliot"
+          },
+          {
+            "hash": 923499579,
+            "name": "Hildian Seeker"
+          }
         ]
       },
       {
         "name": "The Taken King",
         "items": [
-          3926270234,
-          446962952,
-          446962953,
-          446962958
+          {
+            "hash": 3926270234,
+            "name": "\"Fatal Vision\""
+          },
+          {
+            "hash": 446962952,
+            "name": "Longest Vigil"
+          },
+          {
+            "hash": 446962953,
+            "name": "Last Battle"
+          },
+          {
+            "hash": 446962958,
+            "name": "Lost Legacy"
+          }
         ]
       },
       {
         "name": "Eververse Trading Company",
         "items": [
-          446962954,
-          446962955
+          {
+            "hash": 446962954,
+            "name": "Waning Star"
+          },
+          {
+            "hash": 446962955,
+            "name": "Space-Age Mariner"
+          }
+        ]
+      },
+      {
+        "name": "Unclassified",
+        "items": [
+          {
+            "hash": 976743008,
+            "name": "\"Chasing Infinity\""
+          },
+          {
+            "hash": 1096884850,
+            "name": "\"Belisarius Defiant\""
+          },
+          {
+            "hash": 1096884853,
+            "name": "\"Newsbreaker\""
+          },
+          {
+            "hash": 1096884854,
+            "name": "\"Tiger Tiger\""
+          },
+          {
+            "hash": 1096884860,
+            "name": "\"Dream Eater\""
+          },
+          {
+            "hash": 1442286783,
+            "name": "Dead Orbit Vote"
+          },
+          {
+            "hash": 1539265113,
+            "name": "Manus Celer Dei"
+          },
+          {
+            "hash": 1539265118,
+            "name": "Valkyrie-O5X"
+          },
+          {
+            "hash": 1978818869,
+            "name": "Future War Cult Vote"
+          },
+          {
+            "hash": 2064611450,
+            "name": "New Monarchy Vote"
+          },
+          {
+            "hash": 2245431200,
+            "name": "\"Little Light\""
+          },
+          {
+            "hash": 2245431201,
+            "name": "\"Extinction Event\""
+          },
+          {
+            "hash": 2245431202,
+            "name": "\"Vintage Russian Soul\""
+          },
+          {
+            "hash": 2245431203,
+            "name": "\"Ketch Me If You Can\""
+          },
+          {
+            "hash": 2245431204,
+            "name": "\"Tropos Gardener\""
+          },
+          {
+            "hash": 2245431205,
+            "name": "\"Ripship Pardoner\""
+          },
+          {
+            "hash": 2245431206,
+            "name": "\"Ether Eater\""
+          },
+          {
+            "hash": 2245431207,
+            "name": "\"Aries Ascendant\""
+          },
+          {
+            "hash": 2245431211,
+            "name": "\"Gloriole Jump\""
+          },
+          {
+            "hash": 2390487994,
+            "name": "Arcadia Class Jumpship"
+          },
+          {
+            "hash": 2704512801,
+            "name": "\"Made of Shakespeare\""
+          },
+          {
+            "hash": 3043619338,
+            "name": "\"Sun Current\""
+          },
+          {
+            "hash": 3644912838,
+            "name": "\"Vienna Singer\""
+          }
         ]
       }
     ]
   },
   {
     "name": "Exotic Weapon Blueprints",
-    "groups": [
+    "subgroups": [
       {
         "name": "Year 2 Primary",
         "items": [
-          255654879,
-          2748609458,
-          2055601060,
-          2055601061,
-          2055601062,
-          987423912,
-          552354419,
-          2447423793,
-          2447423792,
-          4097026463,
-          1177550374,
-          1177550375,
-          3688594188,
-          3688594189,
-          3688594190,
-          803312564,
-          1346849289
+          {
+            "hash": 255654879,
+            "name": "Zhalo Supercell"
+          },
+          {
+            "hash": 2748609458,
+            "name": "Fabian Strategy"
+          },
+          {
+            "hash": 2055601060,
+            "name": "Hard Light"
+          },
+          {
+            "hash": 2055601061,
+            "name": "SUROS Regime"
+          },
+          {
+            "hash": 2055601062,
+            "name": "Monte Carlo"
+          },
+          {
+            "hash": 987423912,
+            "name": "The First Curse"
+          },
+          {
+            "hash": 552354419,
+            "name": "Ace of Spades"
+          },
+          {
+            "hash": 2447423793,
+            "name": "The Last Word"
+          },
+          {
+            "hash": 2447423792,
+            "name": "Hawkmoon"
+          },
+          {
+            "hash": 4097026463,
+            "name": "No Time to Explain"
+          },
+          {
+            "hash": 1177550374,
+            "name": "Bad Juju"
+          },
+          {
+            "hash": 1177550375,
+            "name": "Red Death"
+          },
+          {
+            "hash": 3688594188,
+            "name": "Boolean Gemini"
+          },
+          {
+            "hash": 3688594189,
+            "name": "Touch of Malice"
+          },
+          {
+            "hash": 3688594190,
+            "name": "The Jade Rabbit"
+          },
+          {
+            "hash": 803312564,
+            "name": "Tlaloc"
+          },
+          {
+            "hash": 1346849289,
+            "name": "MIDA Multi-Tool"
+          }
         ]
       },
       {
         "name": "Year 1 Primary",
         "items": [
-          2809229973,
-          119482464,
-          119482465,
-          119482466,
-          3164616405,
-          3164616404,
-          3164616407,
-          135862170,
-          135862171,
-          3490486525,
-          346443849
+          {
+            "hash": 2809229973,
+            "name": "Necrochasm"
+          },
+          {
+            "hash": 119482464,
+            "name": "Hard Light"
+          },
+          {
+            "hash": 119482465,
+            "name": "SUROS Regime"
+          },
+          {
+            "hash": 119482466,
+            "name": "Monte Carlo"
+          },
+          {
+            "hash": 3164616405,
+            "name": "The Last Word"
+          },
+          {
+            "hash": 3164616404,
+            "name": "Thorn"
+          },
+          {
+            "hash": 3164616407,
+            "name": "Hawkmoon"
+          },
+          {
+            "hash": 135862170,
+            "name": "Bad Juju"
+          },
+          {
+            "hash": 135862171,
+            "name": "Red Death"
+          },
+          {
+            "hash": 3490486525,
+            "name": "MIDA Multi-Tool"
+          },
+          {
+            "hash": 346443849,
+            "name": "Vex Mythoclast"
+          }
         ]
       },
       {
         "name": "Year 2 Special",
         "items": [
-          3012398148,
-          3078564839,
-          3078564838,
-          3675783241,
-          99462852,
-          99462853,
-          99462854,
-          99462855,
-          3227022823,
-          3386109374,
-          3227022822,
-          3835813880,
-          3835813881,
-          1982014077
+          {
+            "hash": 3012398148,
+            "name": "Telesto"
+          },
+          {
+            "hash": 3078564839,
+            "name": "Plan C"
+          },
+          {
+            "hash": 3078564838,
+            "name": "Queenbreakers' Bow"
+          },
+          {
+            "hash": 3675783241,
+            "name": "The Chaperone"
+          },
+          {
+            "hash": 99462852,
+            "name": "Invective"
+          },
+          {
+            "hash": 99462853,
+            "name": "Universal Remote"
+          },
+          {
+            "hash": 99462854,
+            "name": "The 4th Horseman"
+          },
+          {
+            "hash": 99462855,
+            "name": "Lord of Wolves"
+          },
+          {
+            "hash": 3227022823,
+            "name": "Hereafter"
+          },
+          {
+            "hash": 3386109374,
+            "name": "Missing Exotic Blueprint"
+          },
+          {
+            "hash": 3227022822,
+            "name": "Black Spindle"
+          },
+          {
+            "hash": 3835813880,
+            "name": "Patience and Time"
+          },
+          {
+            "hash": 3835813881,
+            "name": "No Land Beyond"
+          },
+          {
+            "hash": 1982014077,
+            "name": "Dreg's Promise"
+          }
         ]
       },
       {
         "name": "Year 2 Heavy",
         "items": [
-          3012398149,
-          57660787,
-          57660786,
-          3386109374,
-          2808364179,
-          2808364178,
-          4100639362,
-          4100639365
+          {
+            "hash": 3012398149,
+            "name": "Sleeper Simulant"
+          },
+          {
+            "hash": 57660787,
+            "name": "Thunderlord"
+          },
+          {
+            "hash": 57660786,
+            "name": "Super Good Advice"
+          },
+          {
+            "hash": 3386109374,
+            "name": "Missing Exotic Blueprint"
+          },
+          {
+            "hash": 2808364179,
+            "name": "Dragon's Breath"
+          },
+          {
+            "hash": 2808364178,
+            "name": "Truth"
+          },
+          {
+            "hash": 4100639362,
+            "name": "Bolt-Caster"
+          },
+          {
+            "hash": 4100639365,
+            "name": "Raze-Lighter"
+          }
         ]
       },
       {
         "name": "Year 1 Special",
         "items": [
-          2612834019,
-          346443851,
-          346443850,
-          2344494718,
-          2344494719,
-          1389842216,
-          1389842217,
-          1557422751,
-          2681212685,
-          3118679308,
-          3118679309
+          {
+            "hash": 2612834019,
+            "name": "Queenbreakers' Bow"
+          },
+          {
+            "hash": 346443851,
+            "name": "Plan C"
+          },
+          {
+            "hash": 346443850,
+            "name": "Pocket Infinity"
+          },
+          {
+            "hash": 2344494718,
+            "name": "The 4th Horseman"
+          },
+          {
+            "hash": 2344494719,
+            "name": "Lord of Wolves"
+          },
+          {
+            "hash": 1389842216,
+            "name": "Invective"
+          },
+          {
+            "hash": 1389842217,
+            "name": "Universal Remote"
+          },
+          {
+            "hash": 1557422751,
+            "name": "Dreg's Promise"
+          },
+          {
+            "hash": 2681212685,
+            "name": "No Land Beyond"
+          },
+          {
+            "hash": 3118679308,
+            "name": "Ice Breaker"
+          },
+          {
+            "hash": 3118679309,
+            "name": "Patience and Time"
+          }
         ]
       },
       {
         "name": "Year 1 Heavy",
         "items": [
-          3191797831,
-          3191797830,
-          3705198528,
-          1274330687,
-          1274330686
+          {
+            "hash": 3191797831,
+            "name": "Thunderlord"
+          },
+          {
+            "hash": 3191797830,
+            "name": "Super Good Advice"
+          },
+          {
+            "hash": 3705198528,
+            "name": "Dragon's Breath"
+          },
+          {
+            "hash": 1274330687,
+            "name": "Gjallarhorn"
+          },
+          {
+            "hash": 1274330686,
+            "name": "Truth"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Exotic Armor Blueprints",
+    "subgroups": [
+      {
+        "name": "Year 2 Helmets",
+        "items": [
+          {
+            "hash": 941890991,
+            "name": "Helm of Saint-14"
+          },
+          {
+            "hash": 941890990,
+            "name": "Helm of Inmost Light"
+          },
+          {
+            "hash": 941890989,
+            "name": "An Insurmountable Skullfort"
+          },
+          {
+            "hash": 941890988,
+            "name": "The Glasshouse"
+          },
+          {
+            "hash": 941890987,
+            "name": "Eternal Warrior"
+          },
+          {
+            "hash": 591060260,
+            "name": "Empyrean Bellicose"
+          },
+          {
+            "hash": 591060261,
+            "name": "The Taikonaut"
+          },
+          {
+            "hash": 1520434777,
+            "name": "Knucklehead Radar"
+          },
+          {
+            "hash": 1520434776,
+            "name": "Achlyophage Symbiote"
+          },
+          {
+            "hash": 1520434779,
+            "name": "Mask of the Third Man"
+          },
+          {
+            "hash": 3386109374,
+            "name": "Missing Exotic Blueprint"
+          },
+          {
+            "hash": 1520434781,
+            "name": "Celestial Nighthawk"
+          },
+          {
+            "hash": 1054763958,
+            "name": "Skyburners Annex"
+          },
+          {
+            "hash": 1054763959,
+            "name": "Graviton Forfeit"
+          },
+          {
+            "hash": 1519376144,
+            "name": "Skull of Dire Ahamkara"
+          },
+          {
+            "hash": 1519376147,
+            "name": "Obsidian Mind"
+          },
+          {
+            "hash": 1519376148,
+            "name": "The Ram"
+          },
+          {
+            "hash": 2778128367,
+            "name": "THE STAG"
+          }
+        ]
+      },
+      {
+        "name": "Year 1 Helmets",
+        "items": [
+          {
+            "hash": 2994845059,
+            "name": "Helm of Saint-14"
+          },
+          {
+            "hash": 2994845058,
+            "name": "Helm of Inmost Light"
+          },
+          {
+            "hash": 2994845057,
+            "name": "An Insurmountable Skullfort"
+          },
+          {
+            "hash": 3577254054,
+            "name": "The Glasshouse"
+          },
+          {
+            "hash": 1611580929,
+            "name": "Eternal Warrior"
+          },
+          {
+            "hash": 144553855,
+            "name": "Knucklehead Radar"
+          },
+          {
+            "hash": 144553854,
+            "name": "Achlyophage Symbiote"
+          },
+          {
+            "hash": 144553853,
+            "name": "Mask of the Third Man"
+          },
+          {
+            "hash": 94883184,
+            "name": "ATS/8 ARACHNID"
+          },
+          {
+            "hash": 838933125,
+            "name": "Celestial Nighthawk"
+          },
+          {
+            "hash": 2771018500,
+            "name": "Skull of Dire Ahamkara"
+          },
+          {
+            "hash": 2771018502,
+            "name": "Light Beyond Nemesis"
+          },
+          {
+            "hash": 3455371673,
+            "name": "Obsidian Mind"
+          },
+          {
+            "hash": 813361818,
+            "name": "The Ram"
+          },
+          {
+            "hash": 2771018501,
+            "name": "Apotheosis Veil"
+          }
+        ]
+      },
+      {
+        "name": "Year 2 Gauntlets",
+        "items": [
+          {
+            "hash": 3055446326,
+            "name": "No Backup Plans"
+          },
+          {
+            "hash": 3055446327,
+            "name": "Ruin Wings"
+          },
+          {
+            "hash": 3055446324,
+            "name": "ACD/0 Feedback Fence"
+          },
+          {
+            "hash": 155374077,
+            "name": "Immolation Fists"
+          },
+          {
+            "hash": 1458254032,
+            "name": "Young Ahamkara's Spine"
+          },
+          {
+            "hash": 1458254033,
+            "name": "Don't Touch Me"
+          },
+          {
+            "hash": 1458254034,
+            "name": "Khepri's Sting"
+          },
+          {
+            "hash": 3386109374,
+            "name": "Missing Exotic Blueprint"
+          },
+          {
+            "hash": 1275480033,
+            "name": "Sunbreakers"
+          },
+          {
+            "hash": 1275480032,
+            "name": "Claws of Ahamkara"
+          },
+          {
+            "hash": 1062853750,
+            "name": "The Impossible Machines"
+          }
+        ]
+      },
+      {
+        "name": "Year 1 Gauntlets",
+        "items": [
+          {
+            "hash": 4132383826,
+            "name": "No Backup Plans"
+          },
+          {
+            "hash": 2591213943,
+            "name": "Ruin Wings"
+          },
+          {
+            "hash": 2449500440,
+            "name": "ACD/0 Feedback Fence"
+          },
+          {
+            "hash": 78421062,
+            "name": "Young Ahamkara's Spine"
+          },
+          {
+            "hash": 4146057409,
+            "name": "Don't Touch Me"
+          },
+          {
+            "hash": 1619609940,
+            "name": "Khepri's Sting"
+          },
+          {
+            "hash": 2335332317,
+            "name": "Sunbreakers"
+          },
+          {
+            "hash": 2927156752,
+            "name": "Claws of Ahamkara"
+          },
+          {
+            "hash": 3050633443,
+            "name": "Nothing Manacles"
+          }
+        ]
+      },
+      {
+        "name": "Year 2 Body Armor",
+        "items": [
+          {
+            "hash": 2661471738,
+            "name": "Crest of Alpha Lupi"
+          },
+          {
+            "hash": 2661471739,
+            "name": "The Armamentarium"
+          },
+          {
+            "hash": 3921595523,
+            "name": "Twilight Garrison"
+          },
+          {
+            "hash": 3386109374,
+            "name": "Missing Exotic Blueprint"
+          },
+          {
+            "hash": 3574778423,
+            "name": "Heart of the Praxic Fire"
+          },
+          {
+            "hash": 3574778422,
+            "name": "Voidfang Vestments"
+          },
+          {
+            "hash": 3574778421,
+            "name": "Starfire Protocol"
+          },
+          {
+            "hash": 3574778420,
+            "name": "Purifier Robes"
+          }
+        ]
+      },
+      {
+        "name": "Year 1 Body Armor",
+        "items": [
+          {
+            "hash": 2272644374,
+            "name": "Crest of Alpha Lupi"
+          },
+          {
+            "hash": 2272644375,
+            "name": "The Armamentarium"
+          },
+          {
+            "hash": 499191786,
+            "name": "Crest of Alpha Lupi"
+          },
+          {
+            "hash": 499191787,
+            "name": "Lucky Raspberry"
+          },
+          {
+            "hash": 1398023011,
+            "name": "Heart of the Praxic Fire"
+          },
+          {
+            "hash": 1398023010,
+            "name": "Voidfang Vestments"
+          },
+          {
+            "hash": 287395896,
+            "name": "Starfire Protocol"
+          },
+          {
+            "hash": 838428205,
+            "name": "Purifier Robes"
+          }
+        ]
+      },
+      {
+        "name": "Year 2 Boots",
+        "items": [
+          {
+            "hash": 4267828624,
+            "name": "Mk. 44 Stand Asides"
+          },
+          {
+            "hash": 4267828625,
+            "name": "Peregrine Greaves"
+          },
+          {
+            "hash": 3386109374,
+            "name": "Missing Exotic Blueprint"
+          },
+          {
+            "hash": 1775312683,
+            "name": "Bones of Eao"
+          }
+        ]
+      },
+      {
+        "name": "Year 1 Boots",
+        "items": [
+          {
+            "hash": 104781337,
+            "name": "Mk. 44 Stand Asides"
+          },
+          {
+            "hash": 909225554,
+            "name": "Peregrine Greaves"
+          },
+          {
+            "hash": 921478195,
+            "name": "Radiant Dance Machines"
+          },
+          {
+            "hash": 1865771870,
+            "name": "Bones of Eao"
+          }
+        ]
+      },
+      {
+        "name": "Year 2 Class Items",
+        "items": [
+          {
+            "hash": 2820418554,
+            "name": "Mark of the Sunforged"
+          },
+          {
+            "hash": 3386109374,
+            "name": "Missing Exotic Blueprint"
+          },
+          {
+            "hash": 2300914892,
+            "name": "Nightstalker Cloak"
+          },
+          {
+            "hash": 2122538507,
+            "name": "Stormcaller Bond"
+          }
+        ]
+      },
+      {
+        "name": "Unclassified",
+        "items": [
+          {
+            "hash": 105485105,
+            "name": "ATS/8 Tarantella"
+          },
+          {
+            "hash": 1275480035,
+            "name": "Nothing Manacles"
+          },
+          {
+            "hash": 1519376145,
+            "name": "Apotheosis Veil"
+          },
+          {
+            "hash": 1519376146,
+            "name": "Light Beyond Nemesis"
+          },
+          {
+            "hash": 1520434778,
+            "name": "ATS/8 ARACHNID"
+          },
+          {
+            "hash": 1775312682,
+            "name": "Radiant Dance Machines"
+          },
+          {
+            "hash": 2217280774,
+            "name": "Shinobu's Vow"
+          },
+          {
+            "hash": 2217280775,
+            "name": "Sealed Ahamkara Grasps"
+          },
+          {
+            "hash": 2882684152,
+            "name": "Crest of Alpha Lupi"
+          },
+          {
+            "hash": 2882684153,
+            "name": "Lucky Raspberry"
+          },
+          {
+            "hash": 2898542650,
+            "name": "Alchemist's Raiment"
+          }
         ]
       }
     ]

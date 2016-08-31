@@ -12,14 +12,131 @@
     vm.settings = dimSettingsService;
 
     vm.collectionHashes = [
-      '2420628997', // Shader Collection
-      '3301500998', // Emblem Collection
-      '614738178', // Emote Collection
-      '44395194', // Vehicles
-      '2244880194', // Ship Collection
-      '1460182514', // Exotic Weapon Blueprints
-      // '3902439767', // Exotic Armor Blueprints
+      // '2420628997', // Shader Collection
+      // '3301500998', // Emblem Collection
+      // '614738178', // Emote Collection
+      // '44395194', // Vehicles
+      // '2244880194', // Ship Collection
+      // '1460182514', // Exotic Weapon Blueprints
+      '3902439767', // Exotic Armor Blueprints
     ];
+
+    function findOrPush(array, itemToPush, findFunction) {
+      for(var i = 0; i < array.length; ++i) {
+        var item = array[i]
+        if(findFunction(item)) {
+          return item
+        }
+      }
+
+      array.push(itemToPush)
+
+      return itemToPush
+    }
+
+    function getDefaultCollections(stores, itemDefinitions) {
+
+      var defaultCollectionInfos = [
+        {
+          hash: '2420628997',
+          queryFunction: function(item) { return item.itemTypeName == 'Armor Shader' }
+        },
+        {
+          hash: '3301500998',
+          queryFunction: function(item) { return item.itemTypeName == 'Emblem' }
+        },
+        {
+          hash: '614738178',
+          queryFunction: function(item) { return item.itemTypeName == 'Emote' }
+        },
+        {
+          hash: '44395194',
+          queryFunction: function(item) { return item.itemTypeName == 'Vehicle' }
+        },
+        {
+          hash: '2244880194',
+          queryFunction: function(item) { return item.itemTypeName == 'Ship' }
+        },
+        {
+          hash: '1460182514',
+          queryFunction: function(item) { return item.itemTypeName == 'Weapon' && item.tierTypeName == "Exotic" }
+        },
+        {
+          hash: '3902439767',
+          queryFunction: function(item) { return ['Helmet', 'Gauntlets', 'Chest Armor', 'Leg Armor'].indexOf(item.itemTypeName) >= 0 && item.tierTypeName == "Exotic" }
+        },
+      ]
+
+      var characterStores = _.reject(stores, (s) => s.isVault);
+      var charactersVendors = _.omit(_.pluck(characterStores, 'vendors'), function(value) { return !value; });
+
+      var groups = []
+      var alreadyHandledHashesForGroup = {}
+
+      $.each(charactersVendors, function(i, characterVendors) {
+        $.each(defaultCollectionInfos, function (i, defaultCollectionInfo) {
+
+          var characterVendor = characterVendors[defaultCollectionInfo.hash]
+
+          var group = findOrPush(groups, { name: characterVendor.vendorName, subgroups: [] }, function(group) {
+            return group.name == characterVendor.vendorName
+          })
+
+          var groupHashes = alreadyHandledHashesForGroup[group.name] ? alreadyHandledHashesForGroup[group.name] : []
+          alreadyHandledHashesForGroup[group.name] = groupHashes
+
+          $.each(characterVendor.saleItemCategories, function (i, saleItemCategory) {
+
+            var subGroup = findOrPush(group.subgroups, { name: saleItemCategory.categoryTitle, items: [] }, function(subGroup) {
+              return subGroup.name == saleItemCategory.categoryTitle
+            })
+
+            $.each(saleItemCategory.saleItems, function (i, saleItem) {
+
+              var item = findOrPush(subGroup.items, {hash: saleItem.item.itemHash, name: itemDefinitions[saleItem.item.itemHash].itemName}, function(item) {
+                return item.hash == saleItem.item.itemHash
+              })
+
+              groupHashes.push(item.hash)
+            })
+          })
+        })
+      })
+
+      $.each(charactersVendors, function(i, characterVendors) {
+        $.each(defaultCollectionInfos, function (i, defaultCollectionInfo) {
+
+          var characterVendor = characterVendors[defaultCollectionInfo.hash]
+
+          var group = findOrPush(groups, { name: characterVendor.vendorName, subgroups: [] }, function(group) {
+            return group.name == characterVendor.vendorName
+          })
+
+          var groupHashes = alreadyHandledHashesForGroup[group.name]
+
+          // use the queryFunction to find untracked items
+          $.each(itemDefinitions, function(itemHash, item) {
+            if(defaultCollectionInfo.queryFunction(item)) {
+              // passes the test, is it's hash already handled?
+              if(groupHashes.indexOf(item.hash) == -1) {
+                groupHashes.push(item.hash)
+
+                var unclassifiedSubGroup = findOrPush(group.subgroups, { name: "Unclassified", items: [] }, function(subGroup) {
+                  return subGroup.name == "Unclassified"
+                })
+
+                findOrPush(unclassifiedSubGroup.items, {hash: item.hash, name: itemDefinitions[item.itemHash].itemName}, function(item) {
+                  return item.hash == itemHash
+                })
+
+              }
+            }
+          })
+        })
+      })
+
+      console.log("Gathered default collections.")
+    }
 
     function init(stores) {
 
@@ -48,35 +165,9 @@
         vm.collections = _.omit(_.pluck(vm.stores, 'vendors'), function(value) { return !value; });
 
         if(vm.collections[0]) {
-          // look at vendors here, per store, and filter by collection hashes.  from there hsould be able to create a copy that has a combined locked status.
-
+          getDefaultCollections(stores, itemDefs)
           var combinedItems = {}
 
-          var groups = []
-
-          vm.combinedCollections = {}
-          $.each(vm.collectionHashes, function (i, collectionHash) {
-            var combinedCollections = angular.copy(vm.collections[0][collectionHash]);
-            vm.combinedCollections[collectionHash] = combinedCollections
-
-            var group = { name: combinedCollections.vendorName, groups:[] }
-            groups.push(group)
-
-            // get a hash -> item map of all items in combined collection
-            // get a hash -> item map of all items across all collections
-            // combined ||= isAcquired 1 || 2
-            $.each(combinedCollections.saleItemCategories, function (i, saleItemCategory) {
-              var subGroup = { name: saleItemCategory.categoryTitle, items:[] }
-              group.groups.push(subGroup)
-
-              $.each(saleItemCategory.saleItems, function(i, saleItem) {
-                combinedItems[saleItem.item.itemHash] = saleItem;
-                // subGroup.items.push({ hash: saleItem.item.itemHash, name: itemDefs[saleItem.item.itemHash].itemName })
-                subGroup.items.push(saleItem.item.itemHash)
-                // subGroup.items[saleItem.item.itemHash] = itemDefs[saleItem.item.itemHash].itemName
-              })
-            })
-          })
         }
 
         if(combinedItems != undefined) {
